@@ -29,6 +29,6 @@ jobs:
         git init
         git checkout -B main
         git add -A
-        git -c user.name="yunik1004" user.email="inkyuhak@gmail.com"
+        git -c user.name="yunik1004" -c user.email="inkyuhak@gmail.com"
         git commit -m "deploy"
         git push -f git@github.com:yunik1004/yunik1004.github.io.git main
