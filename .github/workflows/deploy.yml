@@ -28,7 +28,9 @@ jobs:
       run: |
         cd build
         git init
+        git config --local user.name='yunik1004'
+        git config --local user.email='inkyuhak@gmail.com'
         git add -A
-        git -c user.name='yunik1004' -c user.email='inkyuhak@gmail.com'
-        git commit -m 'deploy'
-        git push -f -q git@github.com:yunik1004/yunik1004.github.io.git main
+        git commit -m 'Deploy'
+        echo "Commit done"
+        git push -f git@github.com:yunik1004/yunik1004.github.io.git main
