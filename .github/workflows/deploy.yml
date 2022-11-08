@@ -28,7 +28,6 @@ jobs:
       run: |
         cd build
         git init
-        git checkout -B main
         git add -A
         git -c user.name='yunik1004' -c user.email='inkyuhak@gmail.com'
         git commit -m 'deploy'
