@@ -28,9 +28,9 @@ jobs:
       run: |
         cd build
         git init
+        git branch -m main
         git config --local user.name "yunik1004"
         git config --local user.email "inkyuhak@gmail.com"
         git add -A
-        git commit -m "Deploy"
-        echo "Commit done"
+        git commit -m "Github Actions Deploy"
         git push -f git@github.com:yunik1004/yunik1004.github.io.git main
