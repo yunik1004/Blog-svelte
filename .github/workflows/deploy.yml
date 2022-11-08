@@ -13,6 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        repository: yunik1004.github.io
+        ref: 'main'
+        token: ${{ secrets.BLOG_GITHUB_TOKEN }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -29,6 +33,6 @@ jobs:
         git init
         git checkout -B main
         git add -A
-        git -c user.name="yunik1004" -c user.email="inkyuhak@gmail.com"
-        git commit -m "deploy"
-        git push -f -q git@github.com:yunik1004/yunik1004.github.io.git main &>/dev/null
+        git -c user.name='yunik1004' -c user.email='inkyuhak@gmail.com'
+        git commit -m 'deploy'
+        git push -f git@github.com:yunik1004/yunik1004.github.io.git main
