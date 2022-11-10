@@ -1,10 +1,9 @@
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -12,29 +11,29 @@ jobs:
         node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: "npm"
-      env:
-        BLOG_GITHUB_TOKEN: "${{ secrets.BLOG_GITHUB_TOKEN }}"
-    - name: Environment setting
-      run: |
-        git config --global init.defaultBranch main
-        git config --global user.name "yunik1004"
-        git config --global user.email "inkyuhak@gmail.com"
-    - name: Install dependencies
-      run: |
-        npm ci
-    - name: Build
-      run: |
-        npm run build
-    - name: Deploy the build output
-      run: |
-        cd build
-        git init
-        git add -A
-        git commit -m "Github Actions Deploy"
-        git push -f https://${{secrets.BLOG_GITHUB_TOKEN}}@github.com/yunik1004/yunik1004.github.io.git main
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+        env:
+          BLOG_GITHUB_TOKEN: '${{ secrets.BLOG_GITHUB_TOKEN }}'
+      - name: Environment setting
+        run: |
+          git config --global init.defaultBranch main
+          git config --global user.name "yunik1004"
+          git config --global user.email "inkyuhak@gmail.com"
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Build
+        run: |
+          npm run build
+      - name: Deploy the build output
+        run: |
+          cd build
+          git init
+          git add -A
+          git commit -m "Github Actions Deploy"
+          git push -f https://${{secrets.BLOG_GITHUB_TOKEN}}@github.com/yunik1004/yunik1004.github.io.git main
