@@ -1,5 +1,3 @@
 <h1 class="text-3xl font-bold underline">
-	Hello world!
+	Projects
 </h1>
-
-<p>hihihi</p>
