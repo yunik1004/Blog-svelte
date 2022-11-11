@@ -37,9 +37,33 @@
 				</button>
 			</li>
 		</ul>
-		<ul class="menu menu-horizontal p-0">
+		<ul class="menu menu-horizontal p-0 hidden sm:flex">
 			<li><a href="/">About</a></li>
 			<li><a href="/projects">Projects</a></li>
 		</ul>
+		<div class="dropdown dropdown-end">
+			<button class="btn btn-ghost sm:hidden" aria-label="menu">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="w-6 h-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+					/>
+				</svg>
+			</button>
+			<ul
+				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+			>
+				<li><a href="/">About</a></li>
+				<li><a href="/projects">Projects</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
