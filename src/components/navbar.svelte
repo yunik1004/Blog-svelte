@@ -16,6 +16,7 @@
 			<li>
 				<button
 					class="btn btn-ghost"
+					name="btn_theme"
 					data-toggle-theme="halloween,cupcake"
 					data-act-class="ACTIVECLASS"
 				>
