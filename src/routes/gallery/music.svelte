@@ -17,4 +17,4 @@
 	<h1 class="text-3xl font-bold pl-3 pb-10">Music Gallery</h1>
 </div>
 
-<p>Coming soon...</p>
+<p class="opacity-75">Coming soon...</p>
