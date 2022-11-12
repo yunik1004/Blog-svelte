@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ItemArt from './item_art.svelte';
+</script>
+
 <div class="flex">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +21,4 @@
 	<h1 class="text-3xl font-bold pl-3 pb-10 text-primary">Art Gallery</h1>
 </div>
 
-<p class="opacity-75">Coming soon...</p>
+<ItemArt />

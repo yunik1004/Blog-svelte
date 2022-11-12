@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ItemMusic from './item_music.svelte';
+</script>
+
 <div class="flex">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +21,15 @@
 	<h1 class="text-3xl font-bold pl-3 pb-10 text-primary">Music Gallery</h1>
 </div>
 
-<p class="opacity-75">Coming soon...</p>
+<div>
+	<ItemMusic
+		title="Tenshi ni fureta yo! (arranged)"
+		date="Dec. 2017"
+		src="musics/Tenshi ni fureta yo! (Arranged by yunik1004).mp3"
+	/>
+	<ItemMusic
+		title="Terror (arranged)"
+		date="Jun. 2017"
+		src="musics/Terror (Arrange by yunik1004).mp3"
+	/>
+</div>
