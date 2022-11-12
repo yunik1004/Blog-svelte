@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ItemEducation from './item_education.svelte';
+</script>
+
 <div class="flex">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -14,5 +18,43 @@
 		/>
 	</svg>
 
-	<h1 class="text-3xl font-bold pl-3">Education</h1>
+	<h1 class="text-3xl font-bold pl-3 pb-10">Education</h1>
+</div>
+
+<div>
+	<ItemEducation
+		degree="Master of Science (M.S)"
+		school="Korea Advanced Institute of Science and Technology (KAIST)"
+		period="Sep. 2019 - Aug. 2021"
+	>
+		<ul class="list-disc pl-5 opacity-75">
+			<li>Major: Artificial Intelligence</li>
+			<li>
+				Advisor: Prof. Kijung Shin (
+				<a class="link link-hover" href="https://sites.google.com/view/kaistdata">
+					KAIST Data Mining Lab
+				</a>
+				)
+			</li>
+			<li>Thesis: Continuous CP Decomposition of Sparse Tensor Streams</li>
+		</ul>
+	</ItemEducation>
+	<div class="pb-5" />
+	<ItemEducation
+		degree="Bachelor of Science (B.S)"
+		school="Korea Advanced Institute of Science and Technology (KAIST)"
+		period="Mar. 2014 - Feb. 2019"
+	>
+		<ul class="list-disc pl-5 opacity-75">
+			<li>Major: Electrical Engineering</li>
+			<li>Double major: Computer Science and Engineering, Mathematical Science</li>
+		</ul>
+	</ItemEducation>
+	<div class="pb-5" />
+	<ItemEducation
+		school="Gyeonggibuk Science High School"
+		degree="High School Diploma"
+		period="Mar. 2012 - Feb. 2014"
+	/>
+	<div class="pb-5" />
 </div>

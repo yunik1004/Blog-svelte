@@ -6,6 +6,8 @@
 
 <div>
 	<Education />
+	<div class="divider" />
 	<Work />
+	<div class="divider" />
 	<Publication />
 </div>

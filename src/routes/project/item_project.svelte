@@ -6,6 +6,6 @@
 
 <div>
 	<h2 class="text-2xl font-bold">{title}</h2>
-	<p class="font-serif italic">{job}, {period}</p>
+	<p class="font-serif italic opacity-50">{job}, {period}</p>
 	<slot />
 </div>

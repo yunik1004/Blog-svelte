@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ItemWork from './item_work.svelte';
+</script>
+
 <div class="flex">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -14,5 +18,9 @@
 		/>
 	</svg>
 
-	<h1 class="text-3xl font-bold pl-3">Working Experience</h1>
+	<h1 class="text-3xl font-bold pl-3 pb-10">Working Experience</h1>
+</div>
+
+<div class="pb-10">
+	<ItemWork title="Test" />
 </div>

@@ -22,7 +22,7 @@
 
 <div>
 	<ItemProject title="MoBERT: Morphological BERT for Korean" job="Researcher" period="Jun. 2020">
-		<ul class="list-none">
+		<ul class="list-none opacity-75">
 			<li>Research the Korean BERT model for pre-training with morphological information</li>
 			<li>
 				<a class="link link-hover" href="https://github.com/yunik1004/MoBERT">[Code]</a>
@@ -35,7 +35,7 @@
 		job="Researcher · front-end programmer · UI/UX designer"
 		period="Sep. 2019 - Dec. 2019"
 	>
-		<ul class="list-none">
+		<ul class="list-none opacity-75">
 			<li>Research the cross-domain auto-encoder-based recommendation system</li>
 			<li>
 				<a class="link link-hover" href="https://github.com/yunik1004/recommendation_web"
@@ -50,7 +50,7 @@
 		job="Project manager · full-stack programmer · UI/UX designer"
 		period="Sep. 2018 - Dec. 2018"
 	>
-		<ul class="list-none">
+		<ul class="list-none opacity-75">
 			<li>
 				Implement the Scratch-like interactive online programming service for deep learning
 				using Vue.js, Tensorflow.js and Blockly.

@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ItemPublication from './item_publication.svelte';
+</script>
+
 <div class="flex">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -14,5 +18,9 @@
 		/>
 	</svg>
 
-	<h1 class="text-3xl font-bold pl-3">Publication</h1>
+	<h2 class="text-3xl font-bold pl-3">Publication</h2>
+</div>
+
+<div>
+	<ItemPublication title="Test" />
 </div>
