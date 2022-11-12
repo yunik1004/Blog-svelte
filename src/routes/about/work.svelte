@@ -21,6 +21,38 @@
 	<h1 class="text-3xl font-bold pl-3 pb-10">Working Experience</h1>
 </div>
 
-<div class="pb-10">
-	<ItemWork title="Test" />
+<div>
+	<ItemWork
+		company="Krafton, Inc."
+		link="https://www.krafton.com"
+		job="Deep Learning Research Engineer"
+		period="Nov. 2021 - Current"
+	>
+		<ul class="list-disc pl-5 opacity-75">
+			<li>Deep Learning Dept. DL Research Team</li>
+		</ul>
+	</ItemWork>
+	<ItemWork
+		company="Information Theory and Machine Learning Lab @ KAIST"
+		link="https://itml.kaist.ac.kr"
+		job="Research Intern"
+		period="Nov. 2017 - Feb. 2018"
+	>
+		<ul class="list-disc pl-5 opacity-75">
+			<li>Research reinforcement algorithms to improve the performance of game agents</li>
+			<li>Develop a game agent for Boxing (Atari 2600) using DQN</li>
+		</ul>
+	</ItemWork>
+	<ItemWork
+		company="Stratio, Inc."
+		link="https://stratiotechnology.com"
+		job="Engineer Intern"
+		period="Mar. 2017 - Aug. 2017"
+	>
+		<ul class="list-disc pl-5 opacity-75">
+			<li>Implement the deep learning model deployment service</li>
+			<li>Implement the API server for the web and IOS application</li>
+			<li>Implement the web-based developing/testing tools for the non-developers</li>
+		</ul>
+	</ItemWork>
 </div>

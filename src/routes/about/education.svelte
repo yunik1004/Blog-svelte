@@ -39,7 +39,6 @@
 			<li>Thesis: Continuous CP Decomposition of Sparse Tensor Streams</li>
 		</ul>
 	</ItemEducation>
-	<div class="pb-5" />
 	<ItemEducation
 		degree="Bachelor of Science (B.S)"
 		school="Korea Advanced Institute of Science and Technology (KAIST)"
@@ -50,11 +49,9 @@
 			<li>Double major: Computer Science and Engineering, Mathematical Science</li>
 		</ul>
 	</ItemEducation>
-	<div class="pb-5" />
 	<ItemEducation
 		school="Gyeonggibuk Science High School"
 		degree="High School Diploma"
 		period="Mar. 2012 - Feb. 2014"
 	/>
-	<div class="pb-5" />
 </div>
