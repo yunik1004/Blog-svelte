@@ -9,7 +9,7 @@
 
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
-		<a class="btn btn-ghost normal-case text-xl" href="/">Inkyu Park</a>
+		<a class="btn btn-ghost normal-case text-xl text-secondary" href="/">Inkyu Park</a>
 	</div>
 	<div class="navbar-end">
 		<ul class="menu menu-horizontal p-0">

@@ -9,7 +9,7 @@
 		viewBox="0 0 24 24"
 		stroke-width="2.0"
 		stroke="currentColor"
-		class="w-6 h-6"
+		class="w-6 h-6 stroke-primary-focus"
 	>
 		<path
 			stroke-linecap="round"
@@ -18,7 +18,7 @@
 		/>
 	</svg>
 
-	<h2 class="text-3xl font-bold pl-3 pb-10">
+	<h2 class="text-3xl font-bold pl-3 pb-10 text-primary">
 		Publication <small class="text-base">(*=Equal Contribution)</small>
 	</h2>
 </div>
