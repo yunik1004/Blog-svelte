@@ -23,12 +23,14 @@
 
 <div>
 	<ItemMusic
-		title="Tenshi ni fureta yo! (arranged)"
+		title="Tenshi ni fureta yo!"
+		credit="Arranged by Inkyu, feat. UNI (VOCALOID)"
 		date="Dec. 2017"
 		src="musics/Tenshi ni fureta yo! (Arranged by yunik1004).mp3"
 	/>
 	<ItemMusic
-		title="Terror (arranged)"
+		title="Terror"
+		credit="Arranged by Inkyu, feat. UNI (VOCALOID)"
 		date="Jun. 2017"
 		src="musics/Terror (Arrange by yunik1004).mp3"
 	/>
