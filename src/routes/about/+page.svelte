@@ -1,3 +1,11 @@
-<h1 class="text-3xl font-bold">Education</h1>
-<h1 class="text-3xl font-bold">Working Experience</h1>
-<h1 class="text-3xl font-bold">Publication</h1>
+<script lang="ts">
+	import Education from './education.svelte';
+	import Publication from './publication.svelte';
+	import Work from './work.svelte';
+</script>
+
+<div>
+	<Education />
+	<Work />
+	<Publication />
+</div>
