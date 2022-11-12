@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	let current_year = new Date().getUTCFullYear();
 </script>
 
