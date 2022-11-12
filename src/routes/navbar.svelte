@@ -40,6 +40,7 @@
 		<ul class="menu menu-horizontal p-0 hidden sm:flex">
 			<li><a href="/about">About</a></li>
 			<li><a href="/project">Project</a></li>
+			<li><a href="/gallery">Gallery</a></li>
 		</ul>
 		<div class="dropdown dropdown-end">
 			<button class="btn btn-ghost sm:hidden" aria-label="menu">
@@ -63,6 +64,7 @@
 			>
 				<li><a href="/about">About</a></li>
 				<li><a href="/project">Project</a></li>
+				<li><a href="/gallery">Gallery</a></li>
 			</ul>
 		</div>
 	</div>
