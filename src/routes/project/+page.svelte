@@ -22,10 +22,12 @@
 
 <div>
 	<ItemProject title="MoBERT: Morphological BERT for Korean" job="Researcher" period="Jun. 2020">
-		<ul class="list-none opacity-75">
-			<li>Research the Korean BERT model for pre-training with morphological information</li>
-			<li>
-				<a class="link link-hover" href="https://github.com/yunik1004/MoBERT">[Code]</a>
+		<ul class="list-none">
+			<li class="opacity-75">
+				Research the Korean BERT model for pre-training with morphological information
+			</li>
+			<li class="opacity-50">
+				<a class="link link-hover" href="https://github.com/yunik1004/MoBERT"> [ code ] </a>
 			</li>
 		</ul>
 	</ItemProject>
@@ -35,12 +37,14 @@
 		job="Researcher · front-end programmer · UI/UX designer"
 		period="Sep. 2019 - Dec. 2019"
 	>
-		<ul class="list-none opacity-75">
-			<li>Research the cross-domain auto-encoder-based recommendation system</li>
-			<li>
+		<ul class="list-none">
+			<li class="opacity-75">
+				Research the cross-domain auto-encoder-based recommendation system
+			</li>
+			<li class="opacity-50">
 				<a class="link link-hover" href="https://github.com/yunik1004/recommendation_web"
-					>[Code (front-end)]</a
-				>
+					>[ code (front-end) ]
+				</a>
 			</li>
 		</ul>
 	</ItemProject>
@@ -50,14 +54,17 @@
 		job="Project manager · full-stack programmer · UI/UX designer"
 		period="Sep. 2018 - Dec. 2018"
 	>
-		<ul class="list-none opacity-75">
-			<li>
+		<ul class="list-none">
+			<li class="opacity-75">
 				Implement the Scratch-like interactive online programming service for deep learning
 				using Vue.js, Tensorflow.js and Blockly.
 			</li>
 			<li>
-				<a class="link link-hover" href="https://github.com/yunik1004/BlockTensor">[Code]</a
-				>
+				<a
+					class="link link-hover opacity-50"
+					href="https://github.com/yunik1004/BlockTensor"
+					>[ code ]
+				</a>
 			</li>
 		</ul>
 	</ItemProject>
