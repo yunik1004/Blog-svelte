@@ -5,6 +5,6 @@
 
 <div>
 	<Music />
-	<div class="pb-10" />
+	<div class="divider" />
 	<Art />
 </div>
