@@ -2,7 +2,7 @@
 	import ItemMusic from './item_music.svelte';
 </script>
 
-<div class="card shadow-xl">
+<div class="card shadow-xl md:card-normal card-compact">
 	<div class="card-body">
 		<div class="flex card-title pb-10">
 			<svg

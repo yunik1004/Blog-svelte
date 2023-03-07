@@ -2,7 +2,7 @@
 	import ItemProject from './item_project.svelte';
 </script>
 
-<div class="card shadow-xl">
+<div class="card shadow-xl md:card-normal card-compact">
 	<div class="card-body">
 		<div class="flex card-title pb-10">
 			<svg
@@ -76,5 +76,6 @@
 				</li>
 			</ul>
 		</ItemProject>
+		<div class="pb-5" />
 	</div>
 </div>
