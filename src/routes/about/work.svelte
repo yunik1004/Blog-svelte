@@ -33,6 +33,27 @@
 			</ul>
 		</ItemWork>
 		<ItemWork
+			company="Data Mining Lab @ KAIST"
+			link="https://sites.google.com/view/kaistdata"
+			job="Master's Student"
+			period="Aug. 2019 - Aug. 2021"
+		>
+			<ul class="list-disc pl-5 opacity-75">
+				<li>
+					Propose SLICENSTITCH for continuous CANDECOMP/PARAFAC (CP) decomposition to deal
+					with event-wise streaming tensor data
+				</li>
+				<li>
+					Research Robust PCA and NMF-based two-stage deconvolution algorithm for the
+					Calcium imaging data
+				</li>
+				<li>
+					Research the online preprocessing algorithm for AI for the real-time imputation
+					and outlier removal on sensor data
+				</li>
+			</ul>
+		</ItemWork>
+		<ItemWork
 			company="Information Theory and Machine Learning Lab @ KAIST"
 			link="https://itml.kaist.ac.kr"
 			job="Research Intern"
