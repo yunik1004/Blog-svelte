@@ -4,7 +4,7 @@
 </script>
 
 <div class="pb-7">
-	<h2 class="text-2xl font-bold">{title}</h2>
-	<p class="font-serif italic opacity-50">{journal}</p>
+	<h2 class="text-2xl font-bold pb-2">{title}</h2>
+	<p class="font-serif italic opacity-50 pb-2">{journal}</p>
 	<slot />
 </div>

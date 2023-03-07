@@ -5,7 +5,7 @@
 </script>
 
 <div>
-	<h2 class="text-2xl font-bold">{title}</h2>
-	<p class="font-serif italic opacity-50">{job}, {period}</p>
+	<h2 class="text-2xl font-bold pb-2">{title}</h2>
+	<p class="font-serif italic opacity-50 pb-2">{job}, {period}</p>
 	<slot />
 </div>

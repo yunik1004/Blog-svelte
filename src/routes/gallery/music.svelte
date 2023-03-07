@@ -23,13 +23,13 @@
 			<h1 class="text-3xl font-bold text-primary">Music Gallery</h1>
 		</div>
 		<ItemMusic
-			title="Tenshi ni fureta yo!"
+			title="천사를 만났어 (天使にふれたよ!)"
 			credit="Arranged by Inkyu, feat. UNI (VOCALOID)"
 			date="Dec. 2017"
 			src="musics/Tenshi ni fureta yo! (Arranged by yunik1004).mp3"
 		/>
 		<ItemMusic
-			title="Terror"
+			title="테러 (テロル)"
 			credit="Arranged by Inkyu, feat. UNI (VOCALOID)"
 			date="Jun. 2017"
 			src="musics/Terror (Arrange by yunik1004).mp3"
