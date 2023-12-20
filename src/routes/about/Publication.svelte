@@ -3,7 +3,7 @@
 	import ItemPublication from './ItemPublication.svelte';
 </script>
 
-<Card title="Publication" subtitle="(*=Equal Contribution)" symbol="paper">
+<Card title="Publication" symbol="paper">
 	<ItemPublication
 		title="SAiD: Speech-driven Blendshape Facial Animation with Diffusion"
 		journal="Preprint"

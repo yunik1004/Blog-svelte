@@ -19,9 +19,10 @@
 			>
 				<path stroke-linecap="round" stroke-linejoin="round" d={get_symbol(symbol)} />
 			</svg>
-
 			<h1 class="text-3xl font-bold">
-				{title} <small class="text-base">{subtitle}</small>
+				{title}
+				<br class="sm:hidden" />
+				<small class="text-base">{subtitle}</small>
 			</h1>
 		</div>
 
