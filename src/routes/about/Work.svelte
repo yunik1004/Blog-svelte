@@ -18,7 +18,7 @@
 		job="Master's Student"
 		period="Aug. 2019 - Aug. 2021"
 	>
-	<li>Advised by Prof. Kijung Shin</li>
+		<li>Advised by Prof. Kijung Shin</li>
 	</ItemWork>
 	<ItemWork
 		company="Information Theory and Machine Learning Lab @ KAIST"
