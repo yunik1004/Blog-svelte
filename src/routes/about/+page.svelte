@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Education from './education.svelte';
-	import Publication from './publication.svelte';
-	import Work from './work.svelte';
+	import Education from './Education.svelte';
+	import Publication from './Publication.svelte';
+	import Work from './Work.svelte';
 </script>
 
 <div>

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Art from './art.svelte';
-	import Music from './music.svelte';
+	import Art from './Art.svelte';
+	import Music from './Music.svelte';
 </script>
 
 <div>

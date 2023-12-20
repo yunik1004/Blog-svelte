@@ -8,5 +8,7 @@
 <div class="pb-7">
 	<h2 class="text-2xl font-bold pb-2"><a class="link link-hover" href={link}>{company}</a></h2>
 	<p class="font-serif italic opacity-50 pb-2">{job}, {period}</p>
-	<slot />
+	<ul class="list-disc pl-5 opacity-75">
+		<slot />
+	</ul>
 </div>
