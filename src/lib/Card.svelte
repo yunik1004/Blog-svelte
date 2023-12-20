@@ -8,7 +8,7 @@
 
 <div class="card shadow-xl md:card-normal card-compact">
 	<div class="card-body">
-		<div class="flex card-title pb-7 text-primary">
+		<div class="flex card-title pb-3 text-primary">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
