@@ -5,11 +5,11 @@
 	export let description: string;
 </script>
 
-<div class="pb-7">
+<div class="pb-3">
 	<h2 class="text-2xl font-bold pb-2">{title}</h2>
 	<p class="font-serif italic opacity-50 pb-2">{job}, {period}</p>
 	<ul class="list-none">
-		<li class="opacity-75">
+		<li class="opacity-75 pb-2">
 			{description}
 		</li>
 		<li class="opacity-50">

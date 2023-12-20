@@ -10,7 +10,7 @@
 		job="Deep Learning Research Engineer"
 		period="Nov. 2021 - Current"
 	>
-		<li>Deep Learning Dept. DL Research Team</li>
+		<li>Advised by Prof. Kangwook Lee</li>
 	</ItemWork>
 	<ItemWork
 		company="Data Mining Lab @ KAIST"
@@ -18,18 +18,7 @@
 		job="Master's Student"
 		period="Aug. 2019 - Aug. 2021"
 	>
-		<li>
-			Propose SLICENSTITCH for continuous CANDECOMP/PARAFAC (CP) decomposition to deal with
-			event-wise streaming tensor data
-		</li>
-		<li>
-			Research Robust PCA and NMF-based two-stage deconvolution algorithm for the Calcium
-			imaging data
-		</li>
-		<li>
-			Research the online preprocessing algorithm for AI for the real-time imputation and
-			outlier removal on sensor data
-		</li>
+	<li>Advised by Prof. Kijung Shin</li>
 	</ItemWork>
 	<ItemWork
 		company="Information Theory and Machine Learning Lab @ KAIST"
@@ -37,8 +26,7 @@
 		job="Research Intern"
 		period="Nov. 2017 - Feb. 2018"
 	>
-		<li>Research reinforcement algorithms to improve the performance of game agents</li>
-		<li>Develop a game agent for Boxing (Atari 2600) using DQN</li>
+		<li>Advised by Prof. Sae-Young Chung</li>
 	</ItemWork>
 	<ItemWork
 		company="Stratio, Inc."
@@ -46,8 +34,6 @@
 		job="Engineer Intern"
 		period="Mar. 2017 - Aug. 2017"
 	>
-		<li>Implement the deep learning model deployment service</li>
-		<li>Implement the API server for the web and IOS application</li>
-		<li>Implement the web-based developing/testing tools for the non-developers</li>
+		<li>Supporter: IITP, FKII</li>
 	</ItemWork>
 </Card>

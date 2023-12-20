@@ -5,7 +5,7 @@
 
 <Card title="Publication" subtitle="(*=Equal Contribution)" symbol="paper">
 	<ItemPublication
-		title="[P1] SAiD: Speech-driven Blendshape Facial Animation with Diffusion"
+		title="SAiD: Speech-driven Blendshape Facial Animation with Diffusion"
 		journal="Preprint"
 		author="Inkyu Park, Jaewoong Cho"
 	>
@@ -16,12 +16,12 @@
 		]
 	</ItemPublication>
 	<ItemPublication
-		title="[W1] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
+		title="LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
 		journal="NeurIPS 2023 Workshop on Diffusion Models"
 		author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
 	></ItemPublication>
 	<ItemPublication
-		title="[C2] Efficient Neural Network Approximation of Robust PCA for Automated Analysis of Calcium Imaging Data"
+		title="Efficient Neural Network Approximation of Robust PCA for Automated Analysis of Calcium Imaging Data"
 		journal="24th International Conference on Medical Image Computing & Computer Assisted Intervention (MICCAI ’21)"
 		author="Seungjae Han, Eun-seo Cho, Inkyu Park, Kijung Shin, and Young-gyu Yoon"
 	>
@@ -38,7 +38,7 @@
 		]
 	</ItemPublication>
 	<ItemPublication
-		title="[C1] SliceNStitch: Continuous CP Decomposition of Sparse Tensor Streams"
+		title="SliceNStitch: Continuous CP Decomposition of Sparse Tensor Streams"
 		journal="37th IEEE International Conference on Data Engineering (ICDE ’21)"
 		author="Taehyung Kwon*, Inkyu Park*, Dongjin Lee, and Kijung Shin"
 	>

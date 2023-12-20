@@ -25,7 +25,7 @@
 		period="Mar. 2014 - Feb. 2019"
 	>
 		<li>Major: Electrical Engineering</li>
-		<li>Double major: Computer Science and Engineering, Mathematical Science</li>
+		<li>Triple major: Computer Science and Engineering, Mathematical Science</li>
 	</ItemEducation>
 	<ItemEducation
 		school="Gyeonggibuk Science High School"
