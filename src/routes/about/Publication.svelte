@@ -12,7 +12,7 @@
 		[
 		<a class="link link-hover" href="https://yunik1004.github.io/SAiD">project page</a>
 		|
-		<a class="link link-hover" href="https://github.com/yunik1004/SAiD">code</a>
+		<a class="link link-hover" href="https://github.com/yunik1004/SAiD">code and datasets</a>
 		]
 	</ItemPublication>
 	<ItemPublication
