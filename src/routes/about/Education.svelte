@@ -11,7 +11,10 @@
 	>
 		<li>Major: Artificial Intelligence</li>
 		<li>
-			Advisor: Prof. Kijung Shin (
+			Advisor: <a class="link link-hover" href="https://kijungs.github.io"
+				>Prof. Kijung Shin
+			</a>
+			(
 			<a class="link link-hover" href="https://sites.google.com/view/kaistdata">
 				KAIST Data Mining Lab
 			</a>

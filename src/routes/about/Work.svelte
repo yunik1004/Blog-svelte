@@ -5,12 +5,15 @@
 
 <Card title="Working Experience" symbol="building">
 	<ItemWork
-		company="Krafton, Inc."
+		company="KRAFTON, Inc."
 		link="https://www.krafton.com"
 		job="Deep Learning Research Engineer"
 		period="Nov. 2021 - Current"
 	>
-		<li>Advised by Prof. Kangwook Lee</li>
+		<li>
+			<a class="link link-hover" href="https://www.krafton.ai">KRAFTON AI</a>, advised by
+			<a class="link link-hover" href="https://kangwooklee.com">Prof. Kangwook Lee</a>
+		</li>
 	</ItemWork>
 	<ItemWork
 		company="Data Mining Lab @ KAIST"
@@ -18,7 +21,11 @@
 		job="Master's Student"
 		period="Aug. 2019 - Aug. 2021"
 	>
-		<li>Advised by Prof. Kijung Shin</li>
+		<li>
+			Advised by <a class="link link-hover" href="https://kijungs.github.io"
+				>Prof. Kijung Shin</a
+			>
+		</li>
 	</ItemWork>
 	<ItemWork
 		company="Information Theory and Machine Learning Lab @ KAIST"
@@ -26,14 +33,27 @@
 		job="Research Intern"
 		period="Nov. 2017 - Feb. 2018"
 	>
-		<li>Advised by Prof. Sae-Young Chung</li>
+		<li>
+			Advised by
+			<a class="link link-hover" href="https://scholar.google.com/citations?user=k-o3JBIAAAAJ"
+				>Prof. Sae-Young Chung
+			</a>
+		</li>
 	</ItemWork>
 	<ItemWork
 		company="Stratio, Inc."
 		link="https://stratiotechnology.com"
-		job="Engineer Intern"
+		job="Software Engineer Intern"
 		period="Mar. 2017 - Aug. 2017"
 	>
-		<li>Supporter: IITP, FKII</li>
+		<li>
+			<a
+				class="link link-hover"
+				href="https://www.ictintern.or.kr/homepage/system/systemViewG.do"
+				>Global ICT Internship Program
+			</a>
+			(supported by <a class="link link-hover" href="https://www.iitp.kr">IITP</a>,
+			<a class="link link-hover" href="https://fkii.org">FKII</a>)
+		</li>
 	</ItemWork>
 </Card>

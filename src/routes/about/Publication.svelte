@@ -19,7 +19,13 @@
 		title="LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
 		journal="NeurIPS 2023 Workshop on Diffusion Models"
 		author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
-	></ItemPublication>
+	>
+		[
+		<a class="link link-hover" href="https://lthilnklover.github.io/pdf/lora_diffusion.pdf"
+			>paper
+		</a>
+		]
+	</ItemPublication>
 	<ItemPublication
 		title="Efficient Neural Network Approximation of Robust PCA for Automated Analysis of Calcium Imaging Data"
 		journal="24th International Conference on Medical Image Computing & Computer Assisted Intervention (MICCAI ’21)"
