@@ -16,18 +16,6 @@
 		</li>
 	</ItemWork>
 	<ItemWork
-		company="Data Mining Lab @ KAIST"
-		link="https://sites.google.com/view/kaistdata"
-		job="Master's Student"
-		period="Aug. 2019 - Aug. 2021"
-	>
-		<li>
-			Advised by <a class="link link-hover" href="https://kijungs.github.io"
-				>Prof. Kijung Shin</a
-			>
-		</li>
-	</ItemWork>
-	<ItemWork
 		company="Information Theory and Machine Learning Lab @ KAIST"
 		link="https://itml.kaist.ac.kr"
 		job="Research Intern"

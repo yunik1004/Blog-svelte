@@ -16,7 +16,7 @@
 			</a>
 			(
 			<a class="link link-hover" href="https://sites.google.com/view/kaistdata">
-				KAIST Data Mining Lab
+				Data Mining Lab
 			</a>
 			)
 		</li>
