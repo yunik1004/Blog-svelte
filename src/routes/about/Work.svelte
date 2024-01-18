@@ -29,7 +29,7 @@
 		</li>
 	</ItemWork>
 	<ItemWork
-		company="Stratio, Inc."
+		company="Stratio, Inc. (US office)"
 		link="https://stratiotechnology.com"
 		job="Software Engineer Intern"
 		period="Mar. 2017 - Aug. 2017"

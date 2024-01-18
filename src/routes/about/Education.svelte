@@ -21,6 +21,7 @@
 			)
 		</li>
 		<li>Thesis: Continuous CP Decomposition of Sparse Tensor Streams</li>
+		<li>Government-sponsored scholarship</li>
 	</ItemEducation>
 	<ItemEducation
 		degree="Bachelor of Science (B.S)"
@@ -28,7 +29,8 @@
 		period="Mar. 2014 - Feb. 2019"
 	>
 		<li>Major: Electrical Engineering</li>
-		<li>Triple major: Computer Science and Engineering, Mathematical Science</li>
+		<li>Triple degree 1: B.S. in Computer Science and Engineering</li>
+		<li>Triple degree 2: B.S. in Mathematical Science</li>
 	</ItemEducation>
 	<ItemEducation
 		school="Gyeonggibuk Science High School"

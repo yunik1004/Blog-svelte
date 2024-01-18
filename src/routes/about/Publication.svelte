@@ -10,6 +10,8 @@
 		author="Inkyu Park, Jaewoong Cho"
 	>
 		[
+		<a class="link link-hover" href="https://arxiv.org/abs/2401.08655">paper</a>
+		|
 		<a class="link link-hover" href="https://yunik1004.github.io/SAiD">project page</a>
 		|
 		<a class="link link-hover" href="https://github.com/yunik1004/SAiD">code and datasets</a>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Education from './Education.svelte';
 	import Publication from './Publication.svelte';
+	import Teach from './Teach.svelte';
 	import Work from './Work.svelte';
 </script>
 
@@ -8,6 +9,8 @@
 	<Education />
 	<div class="divider" />
 	<Work />
+	<div class="divider" />
+	<Teach />
 	<div class="divider" />
 	<Publication />
 </div>
