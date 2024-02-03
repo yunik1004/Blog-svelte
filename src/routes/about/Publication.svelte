@@ -3,20 +3,7 @@
 	import ItemPublication from './ItemPublication.svelte';
 </script>
 
-<Card title="Publication" symbol="paper">
-	<ItemPublication
-		title="SAiD: Speech-driven Blendshape Facial Animation with Diffusion"
-		journal="Preprint"
-		author="Inkyu Park, Jaewoong Cho"
-	>
-		[
-		<a class="link link-hover" href="https://arxiv.org/abs/2401.08655">paper</a>
-		|
-		<a class="link link-hover" href="https://yunik1004.github.io/SAiD">project page</a>
-		|
-		<a class="link link-hover" href="https://github.com/yunik1004/SAiD">code and datasets</a>
-		]
-	</ItemPublication>
+<Card title="Publication" symbol="book">
 	<ItemPublication
 		title="LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
 		journal="NeurIPS 2023 Workshop on Diffusion Models"
