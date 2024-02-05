@@ -10,8 +10,8 @@
 		author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
 	>
 		[
-		<a class="link link-hover" href="https://lthilnklover.github.io/pdf/lora_diffusion.pdf"
-			>paper
+		<a class="link link-hover" href="https://nips.cc/virtual/2023/74885"
+			>link
 		</a>
 		]
 	</ItemPublication>
