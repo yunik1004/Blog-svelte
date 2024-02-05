@@ -10,9 +10,7 @@
 		author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
 	>
 		[
-		<a class="link link-hover" href="https://nips.cc/virtual/2023/74885"
-			>link
-		</a>
+		<a class="link link-hover" href="https://nips.cc/virtual/2023/74885">link </a>
 		]
 	</ItemPublication>
 	<ItemPublication

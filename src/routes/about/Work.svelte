@@ -9,9 +9,11 @@
 		link="https://www.krafton.com"
 		job="Deep Learning Research Engineer"
 		period="Nov. 2021 - Current"
+		division="KRAFTON AI"
+		division_link="https://www.krafton.ai"
 	>
 		<li>
-			<a class="link link-hover" href="https://www.krafton.ai">KRAFTON AI</a>, advised by
+			Advisor:
 			<a class="link link-hover" href="https://kangwooklee.com">Prof. Kangwook Lee</a>
 		</li>
 	</ItemWork>
@@ -22,7 +24,7 @@
 		period="Nov. 2017 - Feb. 2018"
 	>
 		<li>
-			Advised by
+			Advisor:
 			<a class="link link-hover" href="https://scholar.google.com/citations?user=k-o3JBIAAAAJ"
 				>Prof. Sae-Young Chung
 			</a>
@@ -40,7 +42,7 @@
 				href="https://www.ictintern.or.kr/homepage/system/systemViewG.do"
 				>Global ICT Internship Program
 			</a>
-			(supported by <a class="link link-hover" href="https://www.iitp.kr">IITP</a>,
+			(supporter: <a class="link link-hover" href="https://www.iitp.kr">IITP</a>,
 			<a class="link link-hover" href="https://fkii.org">FKII</a>)
 		</li>
 	</ItemWork>
