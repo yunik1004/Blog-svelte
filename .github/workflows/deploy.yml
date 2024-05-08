@@ -1,6 +1,6 @@
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
 
 jobs:
   build:
@@ -16,9 +16,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
         env:
-          BLOG_GITHUB_TOKEN: '${{ secrets.BLOG_GITHUB_TOKEN }}'
+          BLOG_GITHUB_TOKEN: "${{ secrets.BLOG_GITHUB_TOKEN }}"
       - name: Environment setting
         run: |
           git config --global init.defaultBranch main
