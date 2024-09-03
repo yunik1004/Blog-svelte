@@ -5,6 +5,15 @@
 
 <Card title="Publication" symbol="book">
   <ItemPublication
+    title="Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model"
+    journal="Transactions on Machine Learning Research (TMLR '24)"
+    author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
+  >
+    [
+    <a class="link link-hover" href="https://arxiv.org/abs/2405.03958">paper</a>
+    ]
+  </ItemPublication>
+  <ItemPublication
     title="LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
     journal="NeurIPS 2023 Workshop on Diffusion Models"
     author="Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, Ernest Ryu"
