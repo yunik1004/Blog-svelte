@@ -24,7 +24,7 @@
   </ItemPublication>
   <ItemPublication
     title="Efficient Neural Network Approximation of Robust PCA for Automated Analysis of Calcium Imaging Data"
-    journal="24th International Conference on Medical Image Computing & Computer Assisted Intervention (MICCAI ’21)"
+    journal="24th International Conference on Medical Image Computing & Computer Assisted Intervention (MICCAI '21)"
     author="Seungjae Han, Eun-seo Cho, Inkyu Park, Kijung Shin, and Young-gyu Yoon"
   >
     [
@@ -41,7 +41,7 @@
   </ItemPublication>
   <ItemPublication
     title="SliceNStitch: Continuous CP Decomposition of Sparse Tensor Streams"
-    journal="37th IEEE International Conference on Data Engineering (ICDE ’21)"
+    journal="37th IEEE International Conference on Data Engineering (ICDE '21)"
     author="Taehyung Kwon*, Inkyu Park*, Dongjin Lee, and Kijung Shin"
   >
     [
