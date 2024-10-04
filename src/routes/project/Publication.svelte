@@ -11,6 +11,12 @@
   >
     [
     <a class="link link-hover" href="https://arxiv.org/abs/2405.03958">paper</a>
+    |
+    <a class="link link-hover" href="https://openreview.net/forum?id=38P40gJPrI">openreview</a>
+    |
+    <a class="link link-hover" href="https://openreview.net/forum?id=38P40gJPrI">video</a>
+    |
+    <a class="link link-hover" href="https://github.com/lthilnklover/diffusion_lora">code</a>
     ]
   </ItemPublication>
   <ItemPublication
