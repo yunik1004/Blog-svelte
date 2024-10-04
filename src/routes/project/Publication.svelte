@@ -14,7 +14,7 @@
     |
     <a class="link link-hover" href="https://openreview.net/forum?id=38P40gJPrI">openreview</a>
     |
-    <a class="link link-hover" href="https://openreview.net/forum?id=38P40gJPrI">video</a>
+    <a class="link link-hover" href="https://youtube.com/watch?v=z-1LE2aNHak">video</a>
     |
     <a class="link link-hover" href="https://github.com/lthilnklover/diffusion_lora">code</a>
     ]
