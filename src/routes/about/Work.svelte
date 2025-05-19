@@ -13,7 +13,7 @@
     division_link="https://www.krafton.ai"
   >
     <li>
-      Advisor:
+      Supervisor:
       <a class="link link-hover" href="https://kangwooklee.com">Prof. Kangwook Lee</a>
     </li>
   </ItemWork>

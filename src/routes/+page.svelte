@@ -14,7 +14,7 @@
 
   <div class="flex">
     <div class="avatar flex-none pr-8 hidden sm:flex">
-      <div class="w-40 h-40" />
+      <div class="w-40 h-40"></div>
     </div>
     <div class="flex-1">
       <h1 class="text-1xl font-bold pb-3">Contact Info.</h1>

@@ -1,10 +1,15 @@
 <script lang="ts">
-  export let company: string;
-  export let link: string;
-  export let job: string;
-  export let period: string;
-  export let division: string = "";
-  export let division_link: string = "";
+  interface Props {
+    company: string;
+    link: string;
+    job: string;
+    period: string;
+    division?: string;
+    division_link?: string;
+    children?: import("svelte").Snippet;
+  }
+
+  let { company, link, job, period, division = "", division_link = "", children }: Props = $props();
 </script>
 
 <div class="pb-3">
@@ -16,6 +21,6 @@
   </h2>
   <p class="font-serif italic opacity-50">{job}, {period}</p>
   <ul class="list-disc pl-5 opacity-75">
-    <slot />
+    {@render children?.()}
   </ul>
 </div>

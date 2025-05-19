@@ -1,9 +1,14 @@
 <script lang="ts">
   import { get_symbol } from "./symbol";
 
-  export let title: string;
-  export let subtitle: string = "";
-  export let symbol: string;
+  interface Props {
+    title: string;
+    subtitle?: string;
+    symbol: string;
+    children?: import("svelte").Snippet;
+  }
+
+  let { title, subtitle = "", symbol, children }: Props = $props();
 </script>
 
 <div class="card shadow-xl md:card-normal card-compact">
@@ -26,6 +31,6 @@
       </h1>
     </div>
 
-    <slot />
+    {@render children?.()}
   </div>
 </div>

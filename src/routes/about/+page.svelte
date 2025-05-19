@@ -6,8 +6,8 @@
 
 <div>
   <Education />
-  <div class="divider" />
+  <div class="divider"></div>
   <Work />
-  <div class="divider" />
+  <div class="divider"></div>
   <Teach />
 </div>

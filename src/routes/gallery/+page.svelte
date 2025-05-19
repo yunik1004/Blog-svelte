@@ -6,8 +6,8 @@
 
 <div>
   <Game />
-  <div class="divider" />
+  <div class="divider"></div>
   <Music />
-  <div class="divider" />
+  <div class="divider"></div>
   <Art />
 </div>

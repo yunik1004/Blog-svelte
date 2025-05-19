@@ -6,8 +6,8 @@
 
 <div>
   <Publication />
-  <div class="divider" />
+  <div class="divider"></div>
   <Preprint />
-  <div class="divider" />
+  <div class="divider"></div>
   <Project />
 </div>

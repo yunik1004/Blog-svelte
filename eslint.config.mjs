@@ -1,73 +1,36 @@
-import typescriptEslint from "@typescript-eslint/eslint-plugin";
-import globals from "globals";
-import tsParser from "@typescript-eslint/parser";
-import parser from "svelte-eslint-parser";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import prettier from "eslint-config-prettier";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
+import { includeIgnoreFile } from "@eslint/compat";
+import svelte from "eslint-plugin-svelte";
+import globals from "globals";
+import { fileURLToPath } from "node:url";
+import ts from "typescript-eslint";
+import svelteConfig from "./svelte.config.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
-});
+const gitignorePath = fileURLToPath(new URL("./.gitignore", import.meta.url));
 
-export default [
+export default ts.config(
+  includeIgnoreFile(gitignorePath),
+  js.configs.recommended,
+  ...ts.configs.recommended,
+  ...svelte.configs.recommended,
+  prettier,
+  ...svelte.configs.prettier,
   {
-    ignores: [
-      "**/.DS_Store",
-      "**/node_modules",
-      "build",
-      ".svelte-kit",
-      "package",
-      "**/.env",
-      "**/.env.*",
-      "!**/.env.example",
-      "**/pnpm-lock.yaml",
-      "**/package-lock.json",
-      "**/yarn.lock",
-    ],
-  },
-  ...compat.extends(
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:svelte/recommended",
-    "prettier",
-  ),
-  {
-    plugins: {
-      "@typescript-eslint": typescriptEslint,
-    },
-
     languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-      },
-
-      parser: tsParser,
-      ecmaVersion: 2020,
-      sourceType: "module",
-
+      globals: { ...globals.browser, ...globals.node },
+    },
+    rules: { "no-undef": "off" },
+  },
+  {
+    files: ["**/*.svelte", "**/*.svelte.ts", "**/*.svelte.js"],
+    languageOptions: {
       parserOptions: {
+        projectService: true,
         extraFileExtensions: [".svelte"],
+        parser: ts.parser,
+        svelteConfig,
       },
     },
   },
-  {
-    files: ["**/*.svelte"],
-
-    languageOptions: {
-      parser: parser,
-      ecmaVersion: 5,
-      sourceType: "script",
-
-      parserOptions: {
-        parser: "@typescript-eslint/parser",
-      },
-    },
-  },
-];
+);

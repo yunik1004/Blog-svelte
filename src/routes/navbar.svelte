@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { themeChange } from "theme-change";
 
-  let current_theme = "";
+  let current_theme = $state("");
 
   onMount(() => {
     themeChange(false);

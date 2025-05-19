@@ -1,8 +1,13 @@
 <script lang="ts">
-  export let title: string;
-  export let job: string;
-  export let period: string;
-  export let description: string;
+  interface Props {
+    title: string;
+    job: string;
+    period: string;
+    description: string;
+    children?: import("svelte").Snippet;
+  }
+
+  let { title, job, period, description, children }: Props = $props();
 </script>
 
 <div class="pb-3">
@@ -13,7 +18,7 @@
       {description}
     </li>
     <li class="opacity-50">
-      <slot />
+      {@render children?.()}
     </li>
   </ul>
 </div>
