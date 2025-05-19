@@ -10,7 +10,7 @@
     if (theme) {
       current_theme = theme;
     } else {
-      current_theme = "cupcake";
+      current_theme = "bumblebee";
     }
   });
 </script>
@@ -27,9 +27,9 @@
           <input
             type="checkbox"
             class="theme-controller"
-            data-toggle-theme="halloween,cupcake"
+            data-toggle-theme="halloween,emerald"
             data-act-class="ACTIVECLASS"
-            checked={current_theme === "cupcake"}
+            checked={current_theme === "emerald"}
           />
 
           <!-- sun icon -->

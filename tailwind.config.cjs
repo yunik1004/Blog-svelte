@@ -5,8 +5,5 @@ module.exports = {
     extend: {},
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
-  daisyui: {
-    themes: ["cupcake", "halloween"],
-  },
+  plugins: [require("@tailwindcss/typography")],
 };
