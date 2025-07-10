@@ -3,11 +3,10 @@
     title: string;
     detail: string;
     image: string;
-    download: string;
-    code: string;
+    children?: import("svelte").Snippet;
   }
 
-  let { title, detail, image, download, code }: Props = $props();
+  let { title, detail, image, children }: Props = $props();
 </script>
 
 <div class="pb-3">
@@ -20,11 +19,7 @@
     <div class="flex-1 pb-5">
       <h2 class="text-xl font-bold">{title}</h2>
       <p class="opacity-75">{detail}</p>
-      [
-      <a class="link link-hover" href={download}>download</a>
-      |
-      <a class="link link-hover" href={code}>code</a>
-      ]
+      {@render children?.()}
     </div>
   </div>
 </div>
