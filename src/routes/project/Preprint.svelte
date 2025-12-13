@@ -12,9 +12,7 @@
     [
     <a class="link link-hover" href="https://arxiv.org/abs/2509.24274">paper</a>
     |
-    <a class="link link-hover" href="https://github.com/yunik1004/esp-simulator"
-      >code and datasets</a
-    >
+    <a class="link link-hover" href="https://github.com/yunik1004/esp-simulator">code</a>
     ]
   </ItemPublication>
   <ItemPublication
