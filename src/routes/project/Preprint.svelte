@@ -5,16 +5,16 @@
 
 <Card title="Preprint" symbol="paper">
   <ItemPublication
-    title="Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
+    title="Adversarial Reinforcement Learning Framework for ESP Cheater Simulation"
     journal="arXiv preprint (2025)"
-    author="Dongmin Park, Minkyu Kim, Beongjun Choi, Junhyuck Kim, Keon Lee, Jonghyun Lee, Inkyu Park, Byeong-Uk Lee, Jaeyoung Hwang, Jaewoo Ahn, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
+    author="Inkyu Park, Jeong-Gwan Lee, Taehwan Kwon, Juheon Choi, Seungku Kim, Junsu Kim, Kimin Lee"
   >
     [
-    <a class="link link-hover" href="https://arxiv.org/abs/2506.03610">paper</a>
+    <a class="link link-hover" href="https://arxiv.org/abs/2509.24274">paper</a>
     |
-    <!--<a class="link link-hover" href="https://yunik1004.github.io/SAiD">project page</a>
-    |-->
-    <a class="link link-hover" href="https://github.com/krafton-ai/Orak">code and datasets</a>
+    <a class="link link-hover" href="https://github.com/yunik1004/esp-simulator"
+      >code and datasets</a
+    >
     ]
   </ItemPublication>
   <ItemPublication
