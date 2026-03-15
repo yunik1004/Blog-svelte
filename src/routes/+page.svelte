@@ -8,7 +8,7 @@
     <div class="flex-1 pb-5">
       <h1 class="text-4xl font-bold pb-4">Inkyu Park</h1>
       <p class="pb-5 italic opacity-75">Artistic Artist</p>
-      <p class="pb-5">I am a deep learning research engineer.</p>
+      <p class="pb-5">I'm currently working on AI and Content Creation.</p>
     </div>
   </div>
 

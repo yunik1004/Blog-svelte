@@ -43,7 +43,7 @@
 <div class="flex flex-col h-screen">
   <Navbar />
 
-  <div class="container mx-auto max-w-screen-xl p-10 pb-10 grow">
+  <div class="container mx-auto max-w-screen-xl px-4 py-10 sm:px-10 grow">
     {@render children()}
   </div>
 

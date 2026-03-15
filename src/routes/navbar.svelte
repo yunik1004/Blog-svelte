@@ -45,7 +45,7 @@
 </script>
 
 <div class="navbar bg-base-100 shadow-sm">
-  <div class="mx-auto w-full max-w-full 2xl:max-w-screen-2xl flex">
+  <div class="mx-auto w-full max-w-screen-xl px-4 sm:px-10 flex">
     <div class="navbar-start">
       <a class="btn btn-ghost normal-case text-xl text-secondary" href={resolve("/")}>Inkyu Park</a>
     </div>
