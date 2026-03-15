@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { resolve } from "$app/paths";
   import {
     LIGHT_THEME,
     DARK_THEME,
@@ -46,7 +47,7 @@
 <div class="navbar bg-base-100 shadow-sm">
   <div class="mx-auto w-full max-w-full 2xl:max-w-screen-2xl flex">
     <div class="navbar-start">
-      <a class="btn btn-ghost normal-case text-xl text-secondary" href="/">Inkyu Park</a>
+      <a class="btn btn-ghost normal-case text-xl text-secondary" href={resolve("/")}>Inkyu Park</a>
     </div>
     <div class="navbar-end">
       <ul class="menu menu-horizontal p-0">
@@ -89,9 +90,9 @@
         </li>
       </ul>
       <ul class="menu menu-horizontal p-0 hidden sm:flex">
-        <li><a href="/about">About</a></li>
-        <li><a href="/project">Project</a></li>
-        <li><a href="/gallery">Gallery</a></li>
+        <li><a href={resolve("/about")}>About</a></li>
+        <li><a href={resolve("/publication")}>Publication</a></li>
+        <li><a href={resolve("/gallery")}>Gallery</a></li>
       </ul>
       <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn btn-ghost sm:hidden">
@@ -114,9 +115,9 @@
           tabindex="-1"
           class="menu menu-compact dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><a href="/about">About</a></li>
-          <li><a href="/project">Project</a></li>
-          <li><a href="/gallery">Gallery</a></li>
+          <li><a href={resolve("/about")}>About</a></li>
+          <li><a href={resolve("/publication")}>Publication</a></li>
+          <li><a href={resolve("/gallery")}>Gallery</a></li>
         </ul>
       </div>
     </div>

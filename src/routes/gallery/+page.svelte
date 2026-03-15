@@ -2,6 +2,7 @@
   import Art from "./Art.svelte";
   import Game from "./Game.svelte";
   import Music from "./Music.svelte";
+  import Project from "./Project.svelte";
 </script>
 
 <div>
@@ -10,4 +11,6 @@
   <Music />
   <div class="divider"></div>
   <Art />
+  <div class="divider"></div>
+  <Project />
 </div>

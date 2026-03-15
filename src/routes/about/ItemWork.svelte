@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { resolve } from "$app/paths";
+
   interface Props {
     company: string;
     link: string;
@@ -14,9 +16,19 @@
 
 <div class="pb-3">
   <h2 class="text-xl font-bold">
-    <a class="link link-hover" href={link}>{company}</a>
+    {#if link.startsWith("http")}
+      <a class="link link-hover" rel="external" href={link}>{company}</a>
+    {:else}
+      <a class="link link-hover" href={resolve(link as "/")}>{company}</a>
+    {/if}
     {#if division}
-      (<a class="link link-hover" href={division_link}>{division}</a>)
+      (
+      {#if division_link.startsWith("http")}
+        <a class="link link-hover" rel="external" href={division_link}>{division}</a>
+      {:else}
+        <a class="link link-hover" href={resolve(division_link as "/")}>{division}</a>
+      {/if}
+      )
     {/if}
   </h2>
   <p class="font-serif italic opacity-50">{job}, {period}</p>

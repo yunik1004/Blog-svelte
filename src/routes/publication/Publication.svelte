@@ -6,7 +6,10 @@
 <Card title="Publication" symbol="book">
   <ItemPublication
     title="Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
-    journal="EMNLP 2025 Workshop (Worldplay: When Language Meets Games - Outstanding Paper Award)"
+    journal={[
+      "The Fourteenth International Conference on Learning Representations (ICLR '26)",
+      "EMNLP 2025 Workshop (Worldplay: When Language Meets Games - Outstanding Paper Award)",
+    ]}
     author="Dongmin Park, Minkyu Kim, Beongjun Choi, Junhyuck Kim, Keon Lee, Jonghyun Lee, Inkyu Park, Byeong-Uk Lee, Jaeyoung Hwang, Jaewoo Ahn, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
   >
     [
