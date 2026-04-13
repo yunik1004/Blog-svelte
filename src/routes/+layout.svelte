@@ -14,8 +14,8 @@
   <meta name="description" content="Inkyu's blog" />
   <script lang="ts">
     const THEME_KEY = "theme";
-    const LIGHT_THEME = "caramellatte";
-    const DARK_THEME = "sunset";
+    const LIGHT_THEME = "blue-archive";
+    const DARK_THEME = "reverse1999";
 
     function detectDarkMode() {
       const theme = localStorage.getItem(THEME_KEY);

@@ -69,17 +69,17 @@ describe("detectDarkMode", () => {
 });
 
 describe("updateTheme", () => {
-  it("sets data-theme to dark theme when dark mode", () => {
+  it("sets data-theme to reverse1999 when dark mode", () => {
     localStorage.setItem(THEME_KEY, DARK_THEME);
     mockMatchMedia(false);
     updateTheme();
-    expect(document.documentElement.getAttribute("data-theme")).toBe(DARK_THEME);
+    expect(document.documentElement.getAttribute("data-theme")).toBe("reverse1999");
   });
 
-  it("sets data-theme to light theme when light mode", () => {
+  it("sets data-theme to blue-archive when light mode", () => {
     localStorage.setItem(THEME_KEY, LIGHT_THEME);
     mockMatchMedia(false);
     updateTheme();
-    expect(document.documentElement.getAttribute("data-theme")).toBe(LIGHT_THEME);
+    expect(document.documentElement.getAttribute("data-theme")).toBe("blue-archive");
   });
 });

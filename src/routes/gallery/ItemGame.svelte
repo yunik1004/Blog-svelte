@@ -12,7 +12,7 @@
 <div class="pb-3">
   <div class="sm:flex">
     <div class="avatar flex-none pr-8 pb-5">
-      <div class="w-20 h-20 rounded">
+      <div class="w-24 h-24 rounded">
         <img src={image} alt="profile" />
       </div>
     </div>

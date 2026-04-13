@@ -1,8 +1,8 @@
 import { writable } from "svelte/store";
 
 export const THEME_KEY = "theme";
-export const LIGHT_THEME = "caramellatte";
-export const DARK_THEME = "sunset";
+export const LIGHT_THEME = "blue-archive";
+export const DARK_THEME = "reverse1999";
 
 export const isDarkMode = writable(false);
 
