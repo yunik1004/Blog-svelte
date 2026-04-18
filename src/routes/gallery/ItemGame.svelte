@@ -1,25 +1,30 @@
 <script lang="ts">
+  import LinkList from "$lib/LinkList.svelte";
+
+  interface Link {
+    label: string;
+    href: string;
+  }
+
   interface Props {
     title: string;
     detail: string;
     image: string;
-    children?: import("svelte").Snippet;
+    links?: Link[];
   }
 
-  let { title, detail, image, children }: Props = $props();
+  let { title, detail, image, links = [] }: Props = $props();
 </script>
 
-<div class="pb-3">
-  <div class="sm:flex">
-    <div class="avatar flex-none pr-8 pb-5">
-      <div class="w-24 h-24 rounded">
-        <img src={image} alt="profile" />
-      </div>
+<div class="p-3 border border-base-300 rounded bg-base-200/50 flex gap-3">
+  <div class="flex-none">
+    <div class="w-16 h-16 rounded overflow-hidden bg-base-300">
+      <img src={image} alt={title} class="w-full h-full object-cover" />
     </div>
-    <div class="flex-1 pb-5">
-      <h2 class="text-xl font-bold">{title}</h2>
-      <p class="opacity-75">{detail}</p>
-      {@render children?.()}
-    </div>
+  </div>
+  <div class="flex-1 flex flex-col min-w-0">
+    <h2 class="text-base font-bold leading-snug mb-1">{title}</h2>
+    <p class="text-sm opacity-75 flex-1">{detail}</p>
+    <LinkList {links} class="text-sm opacity-50 mt-1" />
   </div>
 </div>

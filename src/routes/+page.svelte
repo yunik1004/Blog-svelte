@@ -1,29 +1,20 @@
 <div class="py-4">
-  <!-- Top decoration -->
-  <div class="flex gap-1.5 items-center mb-8">
-    <div class="h-0.5 w-10 bg-primary rounded-full"></div>
-    <div class="h-0.5 w-5 bg-primary/50 rounded-full"></div>
-    <div class="h-0.5 flex-1 bg-primary/20 rounded-full"></div>
-  </div>
-
-  <!-- Profile card -->
-  <div class="bg-base-200 rounded-box p-6 sm:p-8 mb-8">
-    <div class="sm:flex gap-8 items-center">
-      <div class="flex-none mb-5 sm:mb-0">
-        <div class="avatar">
-          <div class="w-32 h-32 rounded-box border-2 border-primary/50">
-            <img src="images/profile.png" alt="profile" />
-          </div>
+  <!-- Profile -->
+  <div class="sm:flex gap-8 items-center mb-8">
+    <div class="flex-none mb-5 sm:mb-0">
+      <div class="avatar">
+        <div class="w-32 h-32 rounded-box border-2 border-primary/30">
+          <img src="images/profile.png" alt="profile" />
         </div>
       </div>
-      <div class="flex-1">
-        <h1 class="text-4xl font-bold text-secondary mb-1">Inkyu Park</h1>
-        <div class="h-0.5 w-12 bg-primary mb-3"></div>
-        <p class="italic text-primary/80 mb-3">Artistic Artist</p>
-        <p class="text-base-content/75 text-sm leading-relaxed">
-          I'm currently working on AI and Content Creation.
-        </p>
-      </div>
+    </div>
+    <div class="flex-1">
+      <h1 class="text-4xl font-bold text-secondary mb-1">Inkyu Park</h1>
+      <div class="h-0.5 w-12 bg-primary mb-3"></div>
+      <p class="italic text-primary/80 mb-3">Artistic Artist</p>
+      <p class="text-base-content/75 text-sm leading-relaxed">
+        I'm currently working on AI and Content Creation.
+      </p>
     </div>
   </div>
 
@@ -52,7 +43,7 @@
       <p class="font-serif opacity-75">inkyuhak (at) gmail.com</p>
     </div>
 
-    <div class="flex items-center gap-3 flex-wrap">
+    <div class="flex items-center gap-3 flex-wrap -ml-2">
       <a class="btn btn-sm btn-ghost gap-2 px-2 text-primary" href="https://github.com/yunik1004">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +58,23 @@
           />
         </svg>
         yunik1004
+      </a>
+      <a
+        class="btn btn-sm btn-ghost gap-2 px-2 text-primary"
+        href="https://scholar.google.com/citations?user=83gYStYAAAAJ"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          class="fill-current"
+        >
+          <path
+            d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"
+          />
+        </svg>
+        Google Scholar
       </a>
       <a
         class="btn btn-sm btn-ghost gap-2 px-2 text-primary"

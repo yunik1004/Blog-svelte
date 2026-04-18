@@ -1,14 +1,20 @@
 <script lang="ts">
   import { splitAuthor } from "$lib/author";
+  import LinkList from "$lib/LinkList.svelte";
+
+  interface Link {
+    label: string;
+    href: string;
+  }
 
   interface Props {
     title: string;
     journal: string | string[];
     author: string;
-    children?: import("svelte").Snippet;
+    links?: Link[];
   }
 
-  let { title, journal, author, children }: Props = $props();
+  let { title, journal, author, links = [] }: Props = $props();
   const journals = $derived(Array.isArray(journal) ? journal : [journal]);
   const authorParts = $derived(splitAuthor(author));
 </script>
@@ -27,7 +33,5 @@
       {author}
     {/if}
   </p>
-  <div class="opacity-60 text-sm mt-1">
-    {@render children?.()}
-  </div>
+  <LinkList {links} />
 </div>
