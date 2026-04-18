@@ -35,6 +35,7 @@
     link="https://stratiotechnology.com"
     job="Software Engineer Intern"
     period="Mar. 2017 - Aug. 2017"
+    last
   >
     <li>
       <a class="link link-hover" href="https://www.ictintern.or.kr/homepage/system/systemViewG.do"

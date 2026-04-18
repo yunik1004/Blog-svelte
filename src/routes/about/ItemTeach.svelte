@@ -7,9 +7,9 @@
   let { title, children }: Props = $props();
 </script>
 
-<div class="pb-3">
-  <h2 class="text-xl font-bold">{title}</h2>
-  <ul class="list-disc pl-5 opacity-75">
+<div class="mb-5 last:mb-0">
+  <h2 class="text-xl font-bold mb-1">{title}</h2>
+  <ul class="list-disc pl-5 text-base-content/75">
     {@render children?.()}
   </ul>
 </div>

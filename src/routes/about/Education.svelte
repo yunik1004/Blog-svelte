@@ -5,7 +5,7 @@
 
 <Card title="Education" symbol="university_hat">
   <ItemEducation
-    degree="Master of Science (M.S)"
+    degree="Master of Science"
     school="Korea Advanced Institute of Science and Technology (KAIST)"
     period="Sep. 2019 - Aug. 2021"
   >
@@ -22,7 +22,7 @@
     <li>Government-sponsored scholarship</li>
   </ItemEducation>
   <ItemEducation
-    degree="Bachelor of Science (B.S)"
+    degree="Bachelor of Science"
     school="Korea Advanced Institute of Science and Technology (KAIST)"
     period="Mar. 2014 - Feb. 2019"
   >
@@ -34,5 +34,6 @@
     school="Gyeonggibuk Science High School"
     degree="High School Diploma"
     period="Mar. 2012 - Feb. 2014"
+    last
   />
 </Card>

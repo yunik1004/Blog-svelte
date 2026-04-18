@@ -17,8 +17,10 @@
 </script>
 
 <div class="p-3 border border-base-300 rounded bg-base-200/50 flex flex-col">
-  <h2 class="text-base font-bold leading-snug mb-1">{title}</h2>
-  <div class="text-xs font-mono text-primary/70">{period}</div>
-  <div class="text-sm opacity-75 flex-1">{description}</div>
-  <LinkList {links} class="text-sm opacity-50 mt-1" />
+  <div class="flex items-start justify-between gap-2 mb-1">
+    <h2 class="text-base font-bold leading-snug">{title}</h2>
+    <span class="text-xs font-mono text-primary whitespace-nowrap pt-0.5">{period}</span>
+  </div>
+  <div class="text-sm text-base-content/75 flex-1">{description}</div>
+  <LinkList {links} class="text-sm mt-2" />
 </div>

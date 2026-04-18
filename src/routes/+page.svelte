@@ -11,7 +11,7 @@
     <div class="flex-1">
       <h1 class="text-4xl font-bold text-secondary mb-1">Inkyu Park</h1>
       <div class="h-0.5 w-12 bg-primary mb-3"></div>
-      <p class="italic text-primary/80 mb-3">Artistic Artist</p>
+      <p class="text-primary/80 mb-3">Artistic Artist</p>
       <p class="text-base-content/75 text-sm leading-relaxed">
         I'm currently working on AI and Content Creation.
       </p>
@@ -24,26 +24,27 @@
     <div class="h-px flex-1 bg-primary/15"></div>
   </div>
 
-  <div class="space-y-3">
-    <div class="flex items-center gap-3">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-5 h-5 text-primary/70 flex-none"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-        />
-      </svg>
-      <p class="font-serif opacity-75">inkyuhak (at) gmail.com</p>
+  <div class="-ml-2">
+    <div class="flex items-center">
+      <span class="btn btn-sm btn-ghost gap-2 px-2 text-primary pointer-events-none">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-[18px] h-[18px]"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+          />
+        </svg>
+        inkyuhak (at) gmail.com
+      </span>
     </div>
-
-    <div class="flex items-center gap-3 flex-wrap -ml-2">
+    <div class="flex items-center flex-wrap">
       <a class="btn btn-sm btn-ghost gap-2 px-2 text-primary" href="https://github.com/yunik1004">
         <svg
           xmlns="http://www.w3.org/2000/svg"

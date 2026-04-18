@@ -19,19 +19,19 @@
   const authorParts = $derived(splitAuthor(author));
 </script>
 
-<div class="pb-4">
+<div class="mb-5 last:mb-0">
   <h2 class="text-xl font-bold mb-1">{title}</h2>
   <div class="mb-2">
     {#each journals as j (j)}
-      <p class="text-sm italic text-primary/80">{j}</p>
+      <p class="text-sm text-primary/80">{j}</p>
     {/each}
   </div>
-  <p class="opacity-75 text-sm">
+  <p class="text-base-content/75 text-sm">
     {#if authorParts.hasName}
       {authorParts.before}<u>Inkyu Park</u>{authorParts.after}
     {:else}
       {author}
     {/if}
   </p>
-  <LinkList {links} />
+  <LinkList {links} class="text-sm mt-2" />
 </div>
