@@ -18,7 +18,7 @@
   const periodParts = $derived(period.split(" - "));
 </script>
 
-<div class="@container p-3 border border-base-300 rounded bg-base-200/50 flex flex-col">
+<div class="@container p-3 border border-base-300 rounded bg-base-200-half flex flex-col">
   <div class="flex items-start justify-between gap-2 mb-1">
     <h2 class="text-base font-bold leading-snug">{title}</h2>
     <span class="text-xs font-mono text-primary whitespace-nowrap pt-0.5">
@@ -30,6 +30,6 @@
       {/if}
     </span>
   </div>
-  <div class="text-sm text-base-content/75 flex-1">{description}</div>
+  <div class="text-sm text-base-content-muted flex-1">{description}</div>
   <LinkList {links} class="text-sm mt-2" />
 </div>

@@ -16,7 +16,7 @@
   let { title, detail, image, links = [] }: Props = $props();
 </script>
 
-<div class="p-3 border border-base-300 rounded bg-base-200/50 flex gap-3">
+<div class="p-3 border border-base-300 rounded bg-base-200-half flex gap-3">
   <div class="flex-none">
     <div class="w-16 h-16 rounded overflow-hidden">
       <img src={image} alt={title} class="w-full h-full object-cover" />
@@ -24,7 +24,7 @@
   </div>
   <div class="flex-1 flex flex-col min-w-0">
     <h2 class="text-base font-bold leading-snug mb-1">{title}</h2>
-    <p class="text-sm text-base-content/75 flex-1">{detail}</p>
+    <p class="text-sm text-base-content-muted flex-1">{detail}</p>
     <LinkList {links} class="text-sm mt-2" />
   </div>
 </div>

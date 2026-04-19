@@ -3,7 +3,7 @@
   <div class="sm:flex gap-8 items-center mb-8">
     <div class="flex-none mb-5 sm:mb-0">
       <div class="avatar">
-        <div class="w-32 h-32 rounded-box border-2 border-primary/30">
+        <div class="w-32 h-32 rounded-box border-2 border-primary-border">
           <img src="images/profile.png" alt="profile" />
         </div>
       </div>
@@ -11,8 +11,8 @@
     <div class="flex-1">
       <h1 class="text-4xl font-bold text-secondary mb-1">Inkyu Park</h1>
       <div class="h-0.5 w-12 bg-primary mb-3"></div>
-      <p class="text-primary/80 mb-3">Artistic Artist</p>
-      <p class="text-base-content/75 text-sm leading-relaxed">
+      <p class="text-primary-muted mb-3">Artistic Artist</p>
+      <p class="text-base-content-muted text-sm leading-relaxed">
         I'm currently working on AI and Content Creation.
       </p>
     </div>
@@ -20,8 +20,10 @@
 
   <!-- Contact section -->
   <div class="flex items-center gap-4 mb-4">
-    <p class="text-[10px] font-mono text-primary/60 tracking-[0.18em] whitespace-nowrap">CONTACT</p>
-    <div class="h-px flex-1 bg-primary/15"></div>
+    <p class="text-[10px] font-mono text-primary-subtle tracking-[0.18em] whitespace-nowrap">
+      CONTACT
+    </p>
+    <div class="h-px flex-1 bg-primary-line"></div>
   </div>
 
   <div class="-ml-2">

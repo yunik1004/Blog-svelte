@@ -23,10 +23,10 @@
   <h2 class="text-xl font-bold mb-1">{title}</h2>
   <div class="mb-2">
     {#each journals as j (j)}
-      <p class="text-sm text-primary/80">{j}</p>
+      <p class="text-sm text-primary-muted">{j}</p>
     {/each}
   </div>
-  <p class="text-base-content/75 text-sm">
+  <p class="text-base-content-muted text-sm">
     {#if authorParts.hasName}
       {authorParts.before}<u>Inkyu Park</u>{authorParts.after}
     {:else}
