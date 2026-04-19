@@ -46,10 +46,12 @@
   }
 </script>
 
-<div class="navbar bg-base-100 shadow-sm">
+<div class="navbar bg-base-100 shadow-sm p-0">
   <div class="mx-auto w-full max-w-screen-xl px-4 sm:px-10 flex">
     <div class="navbar-start">
-      <a class="btn btn-ghost normal-case text-xl text-secondary" href={resolve("/")}>Inkyu Park</a>
+      <a class="btn btn-ghost normal-case text-xl text-secondary -ml-4" href={resolve("/")}
+        >Inkyu Park</a
+      >
     </div>
     <div class="navbar-end">
       <!-- Theme toggle -->
@@ -92,8 +94,11 @@
 
       <!-- Desktop nav -->
       <div class="hidden sm:flex items-center">
-        {#each navLinks as { href, label } (href)}
-          <a href={resolve(href)} class="group px-3 py-2 text-sm">
+        {#each navLinks as { href, label }, i (href)}
+          <a
+            href={resolve(href)}
+            class="group px-3 py-2 text-sm {i === navLinks.length - 1 ? '-mr-3' : ''}"
+          >
             <span class={navClass(href)}>{label}</span>
           </a>
         {/each}
@@ -101,7 +106,7 @@
 
       <!-- Mobile dropdown -->
       <div class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn btn-ghost sm:hidden text-primary">
+        <div tabindex="0" role="button" class="btn btn-ghost sm:hidden text-primary -mr-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
